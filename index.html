@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Color Code Convater</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+
+		<h1>Color Code Convater</h1>
+
+		<div class="siteDuplex">
+			<div class="leftDiv">
+				<div id="bgDiv" class="backgroundDiv"></div>
+
+				<div class="listBtn">
+					<button id="HaxBtn" class="activeBtn">HEX</button>
+					<button id="rgbBtn">RGB</button>
+					<input id="colurSelect" type="color">
+				</div>
+				<div class="inputCode">
+					<input value="#" id="inputColorCode" class="cc" type="text" placeholder="Enter Color Code">
+					<p id="warningText" class="cct">Worning Text</p>
+				</div>
+			</div>
+
+			<div class="rightDiv">
+				<h2>Color Code</h2>
+				<h3>HEX Color Code</h3>
+				<div class="textDD">
+					<div id="hexColorBg" class="bgTex"></div> 
+					<span id="hexCode" class="txt">#000000</span>
+				</div>
+					<br><br>
+				<h3>RGB Color Code</h3>
+				<div class="textDD">
+					<div id="rgbBgColor" class="bgTex"></div> 
+					<span id="rgbCode" class="txt">rgb(255,255,255)</span>
+				</div>
+			</div>
+		</div>
+
+	<script src="js/castom.js"></script>
+	</body>
+</html>

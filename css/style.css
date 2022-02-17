@@ -1,0 +1,118 @@
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+	font-family: 'Roboto', sans-serif;
+</style>
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 45px;
+	color: #333;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.siteDuplex {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 100px;
+}
+
+.leftDiv {}
+.listBtn {
+	text-align: center;
+}
+.listBtn button {
+	padding: 10px 15px;
+	background-color: #fff;
+	border: 1px solid #333;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 10px;
+	font-weight: 600;
+	transform: translateY(-15px);
+}
+.listBtn input {
+	width: 150px;
+	height: 50px;
+	border: none;
+	margin-top: 10px;
+	margin-left: 100px;
+	cursor: pointer;
+}
+.inputCode input {
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+	color: #000;
+	background-color: #fff;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #333;
+	box-sizing: border-box;
+}
+.inputCode p {
+	font-size: 16px;
+	color: red;
+	margin-top: 10px;
+	display: none;
+}
+
+.backgroundDiv {
+	width: 70%;
+	height: 200px;
+	background-color: #000;
+	margin: auto;
+	border-radius: 0px;
+}
+.inputCode {
+	margin: auto;
+	width: 70%;
+}
+.activeBtn {
+	background-color: green !important;
+	color: #fff;
+}
+
+
+.rightDiv {
+	padding-left: 80px;
+}
+.rightDiv h2 {
+	font-size: 40px;
+	color: #000;
+}
+.rightDiv h3 {
+	font-size: 25px;
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+}
+.rightDiv .textDD {
+	font-size: 20px;
+	color: #000;
+	padding: 7px 0px;
+	margin: 0px;
+	position: relative;
+}
+.bgTex {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+}
+.txt {
+	margin-left: 40px;
+}
